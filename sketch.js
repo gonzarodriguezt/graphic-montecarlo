@@ -4,8 +4,8 @@ var dentro = 0,
 function setup() {
 	createCanvas(600, 600)
 	background(124, 168, 230)
-	ellipseMode(RADIUS); // Set ellipseMode to RADIUS
-	noFill(); // Set fill to white
+	ellipseMode(RADIUS);
+	noFill();
 	ellipse(300, 300, 300, 300)
 }
 
@@ -31,7 +31,7 @@ function draw() {
 }
 
 function mousePressed() {
-	/* console.log(mouseX + ',' + mouseY)
+	console.log(mouseX + ',' + mouseY)
 	noStroke()
 	fill(250, 118, 222)
 	total = total + 1
@@ -41,5 +41,5 @@ function mousePressed() {
 		console.log(true)
 	} else {
 		console.log(false)
-	} */
+	}
 }
